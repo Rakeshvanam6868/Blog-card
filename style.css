@@ -1,0 +1,131 @@
+@import url('https://fonts.google.com/specimen/Figtree');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Figtree',sans-serif;
+}
+
+body{
+  background-color:hsl(47, 88%, 63%);
+}
+
+.card{
+    display:grid;
+    place-items:center;
+    margin:4.5rem;
+}
+
+.container{
+    display:flex;
+    align-items:flex-start;
+    flex-direction:column; 
+    gap:24px;
+    background-color:hsl(0, 0%, 100%);
+    height:500px;
+    width:384px;
+    padding:24px 24px;
+    border-radius:20px;
+    border:1px solid  hsl(0, 0%, 7%);
+    box-shadow:10px 10px  hsl(0, 0%, 7%);
+}
+ 
+.img{
+    border-radius:10px;
+    height:200px;
+    width:336px;
+    object-fit:cover;
+}
+
+.info{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction:column;
+    gap:12px;
+}
+
+.profile{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+}
+
+.avatar{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+}
+
+button{
+    border:none;
+    padding:4px 12px;
+    background-color:hsl(47, 88%, 63%);
+    border-radius:4px;
+    color: hsl(0, 0%, 7%);
+    font-size:16px;
+}
+
+p{
+    font-size:16px;
+}
+
+h3{
+    font-weight:bold;
+}
+
+h3:hover{
+    color:hsl(47, 88%, 63%);
+    cursor:pointer;
+}
+
+.profile p{
+    font-weight:bold;
+}
+
+@media (min-width:300px){
+
+    .card{
+        margin:4rem 1rem;
+    }
+    
+    .container{
+        height:501px;
+        width:327px;
+        display:flex;
+        align-items:flex-start;
+        flex-direction:column; 
+        gap:24px;
+        background-color:hsl(0, 0%, 100%);
+        padding:24px 24px;
+        border-radius:20px;
+        border:1px solid  hsl(0, 0%, 7%);
+        box-shadow:10px 10px  hsl(0, 0%, 7%);
+    }
+
+    .img{
+        height:200px;
+        width:279px;
+    }
+
+    h3{
+        font-weight:50px bold;
+        font-size:20px;
+        color:
+    }
+
+    .attribution{
+        display:flex;
+        justify-content:center;
+        text-align:center;
+        font-size:16px;
+    }
+}
+
+.attribution{
+    display:flex;
+    justify-content:center;
+    font-size:16px;
+}
